@@ -1,4 +1,4 @@
-f = open('input2.txt')
+ff = open('input2.txt')
 lines = f.readlines()
 total = 0
 limits = {'red': 12 , 'green': 13 , 'blue': 14}
@@ -13,4 +13,3 @@ for line in lines:
     if valid:
         total += int(game[5:])
 print(total)
-
